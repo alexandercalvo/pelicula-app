@@ -1,6 +1,6 @@
 
-export interface MoviDBNowPlaying{
-    dates:         Dates;
+export interface MoviDBMoviesResponse{
+    dates?:         Dates;
     page:          number;
     results:       Movie[];
     total_pages:   number;
